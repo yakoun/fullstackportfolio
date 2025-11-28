@@ -1,0 +1,21 @@
+# EmailJS Configuration
+# Suivez le guide dans .gemini/emailjs_setup_guide.md pour obtenir ces clés
+
+# Service ID - Obtenu depuis EmailJS Dashboard > Email Services
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id_here
+
+# Template ID - Obtenu depuis EmailJS Dashboard > Email Templates (template principal)
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id_here
+
+# Public Key - Obtenu depuis EmailJS Dashboard > Account > General
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key_here
+
+# Template ID pour auto-réponse (optionnel)
+# Si vous voulez envoyer un email automatique au visiteur
+NEXT_PUBLIC_EMAILJS_AUTO_REPLY_TEMPLATE_ID=your_auto_reply_template_id_here
+
+# Instructions:
+# 1. Copiez ce fichier et renommez-le en .env.local
+# 2. Remplacez les valeurs par vos vraies clés EmailJS
+# 3. Ne committez JAMAIS le fichier .env.local dans Git
+# 4. Redémarrez le serveur de développement après modification
